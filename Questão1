@@ -1,0 +1,9 @@
+public class Questão1{
+    public static void main (){
+        int contador = 1;
+        while(contador <=20){
+            System.out.println("Eu amo estudar algoritmos!");
+            contador = contador + 1;
+        }
+    }
+}
