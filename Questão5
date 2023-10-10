@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Questão5{
+    public static void main (){
+        Scanner scanner=new Scanner(System.in);
+        int contador = 1;
+        int somador=0;
+        while(contador <=10){
+            System.out.println("Informe um número:");
+            int número= scanner.nextInt();
+            contador = contador + 1;
+            somador+= número;
+            
+        } 
+        System.out.println ("A soma é: "+somador);
+    }
+}
